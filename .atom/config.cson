@@ -1,0 +1,40 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "786f3a60-043d-97b3-9b1e-a3d4328312ba"
+  "language-babel":
+    autoIndentJSX: true
+  linter:
+    showErrorPanel: false
+  minimap:
+    plugins:
+      linter: true
+      linterDecorationsZIndex: 0
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "export PATH=/Users/Mig/.nvm/versions/node/v6.6.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Mig/.atom/packages/platformio-ide/penv/bin:/usr/local/bin"
+    toggles:
+      runInsertedText: false
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
+".languagebabel.ttlextension":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true

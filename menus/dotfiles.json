@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dotfiles",
+        "command": "dotfiles:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dotfiles",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dotfiles:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
